@@ -9,25 +9,25 @@ if ENV['MACKEREL_AGENT_PLUGIN_META'] == '1'
         :metrics => [
           {
             :name  => 'G',
-            :label => 'G'
+            :label => 'hello.getwild.G'
           }, {
             :name  => 'E',
-            :label => 'E'
+            :label => 'hello.getwild.E'
           }, {
             :name  => 'T',
-            :label => 'T'
+            :label => 'hello.getwild.T'
           }, {
             :name  => 'W',
-            :label => 'W'
+            :label => 'hello.getwild.W'
           }, {
             :name  => 'I',
-            :label => 'I'
+            :label => 'hello.getwild.I'
           }, {
             :name  => 'L',
-            :label => 'L'
+            :label => 'hello.getwild.L'
           }, {
             :name  => 'D',
-            :label => 'D'
+            :label => 'hello.getwild.D'
           }
         ]
       }
@@ -212,10 +212,10 @@ elsif day.strftime("%-M").to_i == 52
 end
 
 
-puts [ 'G', "#{G}", Time.now.to_i ].join("\t")
-puts [ 'E', "#{E}", Time.now.to_i ].join("\t")
-puts [ 'T', "#{T}", Time.now.to_i ].join("\t")
-puts [ 'W', "#{W}", Time.now.to_i ].join("\t")
-puts [ 'I', "#{I}", Time.now.to_i ].join("\t")
-puts [ 'L', "#{L}", Time.now.to_i ].join("\t")
-puts [ 'D', "#{D}", Time.now.to_i ].join("\t")
+puts [ 'hello.getwild.G', "#{G}", Time.now.to_i ].join("\t")
+puts [ 'hello.getwild.E', "#{E}", Time.now.to_i ].join("\t")
+puts [ 'hello.getwild.T', "#{T}", Time.now.to_i ].join("\t")
+puts [ 'hello.getwild.W', "#{W}", Time.now.to_i ].join("\t")
+puts [ 'hello.getwild.I', "#{I}", Time.now.to_i ].join("\t")
+puts [ 'hello.getwild.L', "#{L}", Time.now.to_i ].join("\t")
+puts [ 'hello.getwild.D', "#{D}", Time.now.to_i ].join("\t")
